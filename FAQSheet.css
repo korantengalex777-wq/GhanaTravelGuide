@@ -1,0 +1,63 @@
+
+Body {font-family:'Times New Roman';line-height:1.5;word-spacing:1.5;font-size:17px; background-color:gray; color:white; margin:0; padding:0; box-sizing:border-box;}
+
+#front_cover {
+margin:0px;
+border:0px solid black;
+padding:1px;
+background-image:url(coverp.jpeg);
+height:572px;
+width:100%;
+position:relative;
+color:yellow;
+border-radius:5px;
+background-size: cover;
+background-position: center;
+}
+
+h3{
+color:aqua;
+margin-top:15px;
+}
+
+h1{
+font-weight:bolder;
+color: white;
+text-transform:uppercase;
+width:100%;
+position:relative;
+margin:0px;
+text-align:center;
+font-size:30pt;
+}
+
+h2{color:yellow; text-transform:uppercase; margin-top:20px;}
+
+pre {
+white-space: pre-wrap;
+word-wrap: break-word;
+font-family: inherit;
+background-color: rgba(0,0,0,0.1);
+padding: 10px;
+border-radius: 5px;
+margin: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    Body {font-size:14px; padding:10px;}
+    #front_cover {height:300px;}
+    h1 {font-size:20pt;}
+    h2 {font-size:16px;}
+    h3 {font-size:14px;}
+    pre {font-size:12px; padding:8px;}
+}
+
+@media (max-width: 480px) {
+    Body {font-size:12px; padding:5px;}
+    #front_cover {height:200px;}
+    h1 {font-size:16pt;}
+    h2 {font-size:14px;}
+    h3 {font-size:12px;}
+    pre {font-size:11px; padding:5px;}
+}
